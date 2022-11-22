@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+body{
+    background-image: linear-gradient(90deg, #0ef05d9d, #f8f41baf)
+}
+main {
+background-color: ;
+border-radius: 5%;
+width: auto;
+padding: 10px;
+margin: auto;
+}
+h1 {
+color: #03318C;
+}
+h2 {
+color: ;
+}
+p {
+
+}
+div:hover{
+    color: red;
+    display: none;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #ecdd00;
+    --cor1: #fad504;
+    --cor2: #f7f7f7;
+    --cor3: #000000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 30px 0px 30px 0px;
+}
+img{
+
+}
+#logo{
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Caviar';
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--cor0) ;
+}
+nav{
+    text-align: left;
+}
+a:hover{
+    background-color: aquamarine;
+}
+nav:hover{
+   
+}

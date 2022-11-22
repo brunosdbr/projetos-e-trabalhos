@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(90deg, #0ef05d9d, #f8f41baf);
+}
+h1{
+    text-align: center;
+}
+h1:hover {
+    background: darkcyan;
+    padding: 10px;
+    margin: 5px;
+    border: 5px;
+    border-color: azure;
+}
+h2 {
+
+}
+p {
+
+}
+img {
+    display: block; margin-left: auto; margin-right: auto;
+    border: 10px;
+    border-color: blanchedalmond;
+}
+footer{
+    text-align: center;
+    width: auto;
+}
+nav{
+    background-color: aliceblue
+    
+}
+a{
+    text-decoration: underline;
+}
+nav > a {
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+  
+}
+nav > a:hover{
+    background-color: aquamarine;
+    margin: 30px;
+    text-align: center;
+
+}

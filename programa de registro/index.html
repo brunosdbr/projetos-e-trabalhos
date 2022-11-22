@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheklist de Intervenção</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="imagens/cabecalho.png" alt="logofp">
+        <nav>
+            <a href="#">Suporte</a>
+            <a href="#">Chamados</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <form name="meu_form">
+            <h1>Entre em contato</h1>
+            <ul>
+                <li>
+                    <input type="text" id="nomeid" placeholder="Bruno Gabriel" required="required" name="nome" />
+                    <label for="nome">Nome</label>
+                </li>
+                <li>
+                    <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                    <label for="fone">Fone</label>
+                </li>
+                <li>
+                    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                    <label for="email">Email</label>
+                </li>
+                <li><textarea placeholder="Deixe sua opnião"></textarea></li>
+            </ul>
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+          </form>
+    </main>
+</body>
+</html>
