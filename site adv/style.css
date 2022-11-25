@@ -21,7 +21,14 @@
     padding: 0px;
 }
 body {
+    height: 100vh;
     background-image: url(imagens/foto-adogado.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+   /* background: url(imagens/foto-adogado.jpg) center center no-repeat cover fixed;  > pode-se usar tambem esse shorthand, porém o size ainda não funciona, tem que faze-lo a parte*/
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
